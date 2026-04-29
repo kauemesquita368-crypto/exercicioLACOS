@@ -127,3 +127,16 @@ if (operacao === "+") {
 }
 alert("Resultado: = " = resultado)
    
+/// 2 - Maior entre três números:
+
+let num1 = Number(prompt("Digite o primeiro numero"))
+let num2 = Number(prompt("Digite o segundo numero"))
+let num3 = Number(prompt("Digite o terceiro numero"))
+
+if (num1 > num2 && num1 > num3) {
+    alert ("O maior numero é: " + num1);
+} else if (num2 > num3 && num2 > num1) {
+    alert("O maior numero é: "+ num2);    
+} else {
+    alert("O maior numero é: " + num3);
+}git 
