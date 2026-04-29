@@ -110,7 +110,7 @@ if (numero3 % 2 == 0) {
 */
 
 //Calculadora simples
-const n1 = Number(prompt ("Numero 1:"));
+/*const n1 = Number(prompt ("Numero 1:"));
 const operacao = prompt("Operação (+, -, *, /) :");
 const n2 = Number(prompt ("Numero 2:"));
 let resultado;
@@ -126,7 +126,8 @@ if (operacao === "+") {
     alert("Operação inválida!");
 }
 alert("Resultado: = " = resultado)
-   
+   */
+  
 /// 2 - Maior entre três números:
 
 let num1 = Number(prompt("Digite o primeiro numero"))
@@ -139,4 +140,4 @@ if (num1 > num2 && num1 > num3) {
     alert("O maior numero é: "+ num2);    
 } else {
     alert("O maior numero é: " + num3);
-}git 
+}

@@ -50,11 +50,11 @@ while (palpite !== numeroSecreto) {
   palpite = Number(prompt("Adivinhe o número (1 a 100):"));
 
   if (palpite > numeroSecreto) {
-    console.log("O número é menor");
+    alert("O número é menor");
     }else if (palpite < numeroSecreto) {
-      console.log("O número é maior");
+      alert("O número é maior");
     }else {
-      console.log("Acertou!!!");
+      alert("Acertou!!!");
     }
   }
 */
@@ -73,3 +73,17 @@ while (tempo > 0) {
 console.log("Contagem regressiva chegou ao final!")
 */
 
+//Nivel 1 Avançado
+
+let numero = Number(prompt("Digite um número inteiro:"));
+
+let soma = 0;
+
+while (numero > 0) {
+  let digito = numero % 10;
+  soma += digito;
+
+  numero = Math.floor(numero/10);
+}
+
+console.log("Soma dos dígitos:", soma)
